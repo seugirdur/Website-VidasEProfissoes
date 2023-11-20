@@ -30,7 +30,7 @@ export const MobileMenu = ({ showMenu, setShowMenu }: MobileMenuProps) => {
           </button>
           <button className="flex flex-row w-full font-bold uppercase px-4 py-4 items-center">
             <User className="mr-2" width={32} height={32} weight="fill" />
-            <p>Vagas</p>
+            <a href={"/vagas"}>Vagas</a>
           </button>
           <button className="flex flex-row w-full font-bold uppercase px-4 py-4 items-center">
             <Users className="mr-2" width={32} height={32} weight="fill" />

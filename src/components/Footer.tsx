@@ -2,7 +2,7 @@ import LogoWhite from "../assets/logowhite.png";
 
 export const Footer = () => {
   return (
-    <div className="bg-gradient-to-br items-center flex flex-col p-4 from-black to-zinc-500 ">
+    <div className="bg-gradient-to-br font-opensans items-center flex flex-col p-4 from-black to-zinc-500 ">
       <div className="w-40 h-20 m-2">
         <img src={LogoWhite} alt="" />
       </div>

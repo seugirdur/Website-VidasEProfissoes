@@ -7,7 +7,7 @@ export const QuemSomos = () => {
   return (
     <div className="flex flex-col">
       <MenuBar />
-      <div className="w-full bg-gradient-to-r from-yellow-300 to-transparent h-12 flex flex-col mt-16 justify-center px-4">
+      <div className="w-full bg-gradient-to-r from-[#FEB922] to-transparent h-12 flex flex-col mt-16 justify-center px-4">
         <p className="uppercase font-bold">● Quem Somos</p>
       </div>
       <div className="w-full h-full flex flex-col justify-center items-center pb-20">
