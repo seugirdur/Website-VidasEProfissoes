@@ -34,11 +34,11 @@ export const MobileMenu = ({ showMenu, setShowMenu }: MobileMenuProps) => {
           </button>
           <button className="flex flex-row w-full font-bold uppercase px-4 py-4 items-center">
             <Users className="mr-2" width={32} height={32} weight="fill" />
-            <p>Serviços</p>
+            <a href={"/servicos"}>Serviços</a>
           </button>
           <button className="flex flex-row w-full font-bold uppercase px-4 py-4 items-center">
             <Envelope className="mr-2" width={32} height={32} weight="fill" />
-            <p>Contato</p>
+            <a href={"/contato"}>Contato</a>
           </button>
         </div>
         <div className="flex flex-col mt-auto mb-20">

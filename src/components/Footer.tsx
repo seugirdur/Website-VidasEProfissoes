@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="w-40 h-20 m-2">
         <img src={LogoWhite} alt="" />
       </div>
-      <p className="text-white m-2 text-center text-sm uppercase" >CNPJ 38.175.111/0001-01 | ©2023 por Vidas e Profissões. </p>
+      <p className="text-white m-2 text-center text-xs px-12 pt-2 uppercase" >CNPJ 38.175.111/0001-01 | ©2023 por Vidas e Profissões. </p>
     </div>
   );
 };

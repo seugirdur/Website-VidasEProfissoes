@@ -1,6 +1,5 @@
 import { MenuBar } from "../components/MenuBar";
 import VagasImg from "../assets/vagas.png";
-import QSomos2 from "../assets/qsomos2.jpg";
 import { Footer } from "../components/Footer";
 
 export const Vagas = () => {
