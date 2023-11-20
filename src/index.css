@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bubble {
+  animation: moveBubble 10s infinite alternate linear; /* Adjust the duration as needed */
+}
+
+.scaleAni {
+  animation: scaleAnimation 3s infinite alternate linear;
+}
+
+/* Keyframes for the animation */
+/* Keyframes for the animation */
+@keyframes moveBubble {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(1vw, 0);
+  }
+  50% {
+    transform: translate(0, 1vw);
+  }
+  75% {
+    transform: translate(-1vw, 0);
+  }
+  100% {
+    transform: translate(0, -1vw);
+  }
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
